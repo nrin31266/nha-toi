@@ -24,13 +24,9 @@ type FooterProps = {
 
 const footerLinks = [
   { id: "intro", label: "Giới thiệu" },
-  { id: "statistics", label: "Thống kê" },
   { id: "corners", label: "Góc nhà" },
   { id: "menu", label: "Thức uống" },
   { id: "gallery", label: "Thư viện" },
-  { id: "testimonials", label: "Đánh giá" },
-  { id: "faq", label: "FAQ" },
-  { id: "info", label: "Thông tin" },
   { id: "contact", label: "Liên hệ" },
 ];
 

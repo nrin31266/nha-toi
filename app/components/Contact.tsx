@@ -25,8 +25,7 @@ export default function Contact({
   mapEmbedUrl,
   social,
 }: ContactProps) {
-  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
-
+  const mapsUrl = "https://www.google.com/maps/place/Nh%C3%A0+T%C3%B4i+-+Kem+D%E1%BB%ABa+Nh%C3%A0+T%C3%B4i/@15.8347381,108.3327962,1297m/data=!3m2!1e3!4b1!4m6!3m5!1s0x31420d4f67be1dab:0x8bd99f22fb500467!8m2!3d15.8347381!4d108.3353711!16s%2Fg%2F11z49ssztq?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D"
   return (
     <section id="contact" className="scroll-mt-20 px-4 py-20 md:px-6">
       <div className="mx-auto max-w-6xl">
