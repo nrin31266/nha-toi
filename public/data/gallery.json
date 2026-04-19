@@ -1,0 +1,51 @@
+{
+  "title": "Góc nhìn NHÀ TÔI",
+  "description": "Từng khoảnh khắc bình yên qua ống kính",
+  "images": [
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776627578/670964608_924868817052234_5923704962204026072_n_fzr4qq.jpg",
+      "alt": "Hiên nhà gỗ và hồ cá NHÀ TÔI",
+      "category": "hồ"
+    },
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776627578/669839342_924861097053006_4820788089066575986_n_skyrsv.jpg",
+      "alt": "Góc vườn cây xanh mát NHÀ TÔI",
+      "category": "vườn"
+    },
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776627579/676457267_931487426390373_4643216950586937865_n_uzzk7n.jpg",
+      "alt": "Hiên nhà ấm cúng với bàn ghế gỗ",
+      "category": "góc nghỉ"
+    },
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776627578/671776852_931487466390369_1350443460637818116_n_kozokm.jpg",
+      "alt": "Không gian thư giãn bên hồ NHÀ TÔI",
+      "category": "hồ"
+    },
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776627578/668924100_925649733640809_2846687968851038667_n_ulzcvy.jpg",
+      "alt": "Vườn rau xanh và lối đi gỗ",
+      "category": "vườn"
+    },
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776627578/669230183_924868827052233_2514213628535758418_n_of6bf8.jpg",
+      "alt": "Góc nhỏ bên hồ cá trong xanh",
+      "category": "hồ"
+    },
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776627577/670665415_924868957052220_5077118935468830534_n_ksgsa5.jpg",
+      "alt": "Khung cảnh bình yên tại NHÀ TÔI",
+      "category": "tổng thể"
+    },
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776627577/667884054_924868883718894_3842419296640419660_n_okd3qc.jpg",
+      "alt": "Check-in cùng thiên nhiên NHÀ TÔI",
+      "category": "góc nghỉ"
+    },
+    {
+      "src": "https://res.cloudinary.com/djull2eev/image/upload/v1776630103/da864301-ed90-4d80-b349-2c5a97da694f.png",
+      "alt": "Check-in cùng thiên nhiên NHÀ TÔI",
+      "category": "góc nghỉ"
+    }
+  ]
+}

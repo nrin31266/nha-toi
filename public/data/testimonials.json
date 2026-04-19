@@ -1,0 +1,25 @@
+{
+  "testimonials": [
+    {
+      "name": "Chị Lan",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+      "text": "Đẹp hơn cả mong đợi, đi chiều mát siêu chill.",
+      "rating": 5,
+      "date": "15/03/2024"
+    },
+    {
+      "name": "Anh Tuấn",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+      "text": "Không gian rộng, sạch, phù hợp cho gia đình cuối tuần.",
+      "rating": 5,
+      "date": "02/05/2024"
+    },
+    {
+      "name": "Bạn Hà",
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+      "text": "Nhiều góc chụp ảnh đẹp, đồ uống dễ chịu.",
+      "rating": 4,
+      "date": "27/06/2024"
+    }
+  ]
+}

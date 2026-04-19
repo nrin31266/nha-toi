@@ -8,19 +8,77 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-poppins);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #74a893 #e8f3ed;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #5f9e8e, #2f6f60);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e8f3ed;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 32px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translate3d(0, 32px, 0);
+}
+
+.fade-in-up.is-visible {
+  animation: fadeInUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.social-pill {
+  border-radius: 999px;
+  background: #d9ece2;
+  padding: 0.45rem 0.85rem;
+  color: #2f5f50;
+  transition: all 0.2s ease;
+}
+
+.social-pill:hover {
+  background: #c4e2d3;
+}
+
+.footer-link {
+  border-radius: 999px;
+  border: 1px solid #6f9f8c;
+  padding: 0.3rem 0.75rem;
+  transition: background 0.2s ease;
+}
+
+.footer-link:hover {
+  background: #255246;
 }

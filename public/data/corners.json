@@ -1,0 +1,64 @@
+{
+  "corners": [
+    {
+      "id": 1,
+      "name": "🌊 Góc Hồ Cá",
+      "description": "Ngồi trên hiên nhà gỗ ngắm từng đàn cá tung tăng, lắng nghe tiếng chim hót và gió thổi qua tán cây. Rất thích hợp để thả hồn cùng ly cà phê hoặc kem dừa mát lạnh.",
+      "highlight": "🏆 Góc được yêu thích nhất",
+      "image": "https://res.cloudinary.com/djull2eev/image/upload/v1776627578/670964608_924868817052234_5923704962204026072_n_fzr4qq.jpg",
+      "features": [
+        "🐟 View hồ cá 180 độ",
+        "🌿 Mát mẻ quanh năm",
+        "🌅 Thích hợp ngắm hoàng hôn",
+        "📸 Góc check-in lý tưởng"
+      ],
+      "bestTime": "16:00 - 18:00",
+      "tags": ["lãng mạn", "yên tĩnh", "đẹp", "check-in"]
+    },
+    {
+      "id": 2,
+      "name": "🌿 Góc Vườn Cây",
+      "description": "Dưới những tán cây cổ thụ rợp bóng mát, bạn có thể nằm võng đọc sách hoặc trò chuyện cùng bạn bè. Không gian yên tĩnh và mát mẻ quanh năm.",
+      "highlight": "🍃 Yên tĩnh nhất để thư giãn",
+      "image": "https://res.cloudinary.com/djull2eev/image/upload/v1776627578/669839342_924861097053006_4820788089066575986_n_skyrsv.jpg",
+      "features": [
+        "🌳 Nhiều bóng mát",
+        "💨 Không khí trong lành",
+        "📖 Nơi đọc sách lý tưởng",
+        "☕ Có dịch vụ gọi món tại chỗ"
+      ],
+      "bestTime": "08:00 - 10:00",
+      "tags": ["xanh", "thư giãn", "mát", "đọc sách"]
+    },
+    {
+      "id": 3,
+      "name": "🏡 Góc Hiên Nhà",
+      "description": "Hiên nhà gỗ mộc mạc với bộ bàn ghế xinh xắn, nơi bạn có thể nhâm nhi tách trà nóng hoặc bát kem dừa mát lạnh trong không gian ấm cúng, thân quen như chính ngôi nhà của mình.",
+      "highlight": "☕ Ấm cúng và thân thuộc nhất",
+      "image": "https://res.cloudinary.com/djull2eev/image/upload/v1776627579/676457267_931487426390373_4643216950586937865_n_uzzk7n.jpg",
+      "features": [
+        "🪑 Nhiều góc ngồi chill",
+        "🍃 Thoáng gió tự nhiên",
+        "✨ Ánh sáng đẹp để check-in",
+        "🍨 Phục vụ kem và đồ uống tận bàn"
+      ],
+      "bestTime": "09:00 - 11:00",
+      "tags": ["ấm cúng", "mộc", "check-in", "thân thuộc"]
+    },
+    {
+      "id": 4,
+      "name": "🌺 Góc Vườn Rau",
+      "description": "Khoảng vườn nhỏ đầy sắc màu với các loại rau thơm và hoa theo mùa, đan xen lối đi gỗ nhỏ rất thơ mộng. Đây là background tuyệt vời cho những bức ảnh chân dung sống ảo.",
+      "highlight": "🌸 Background sống ảo đẹp nhất",
+      "image": "https://res.cloudinary.com/djull2eev/image/upload/v1776627578/668924100_925649733640809_2846687968851038667_n_ulzcvy.jpg",
+      "features": [
+        "🌼 Nhiều hoa và rau thơm theo mùa",
+        "🪵 Lối đi gỗ đẹp",
+        "📸 Nền ảnh đa sắc",
+        "🥤 Có thể gọi đồ uống mang ra"
+      ],
+      "bestTime": "15:00 - 17:00",
+      "tags": ["rực rỡ", "sống ảo", "thiên nhiên", "hoa"]
+    }
+  ]
+}

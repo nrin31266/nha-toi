@@ -1,0 +1,144 @@
+{
+  "title": "Thức uống & Món ngon tại NHÀ TÔI",
+  "subtitle": "Chill cùng thiên nhiên, cà phê, trà nóng, và kem dừa béo ngậy",
+  "featured": ["Bạc xỉu", "Trà sen", "Kem dừa dồi dào"],
+  "seasonal": ["Trà gừng mật ong", "Socola nóng", "Kem lá dứa"],
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "Cà phê",
+      "icon": "☕",
+      "items": [
+        {
+          "name": "Cà phê đen",
+          "description": "Đậm đà, tỉnh táo, phin truyền thống",
+          "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg",
+          "tags": ["HOT"]
+        },
+        {
+          "name": "Cà phê sữa",
+          "description": "Thơm ngon, béo ngậy, chút ngọt đầu môi",
+          "image": "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg",
+          "tags": ["BESTSELLER"]
+        },
+        {
+          "name": "Bạc xỉu",
+          "description": "Sữa thơm béo, chút cafe nhẹ nhàng",
+          "image": "https://images.pexels.com/photos/2525668/pexels-photo-2525668.jpeg",
+          "tags": ["HOT", "NGON"]
+        }
+      ]
+    },
+    {
+      "id": "do-nong",
+      "name": "Đồ nóng",
+      "icon": "🔥",
+      "items": [
+        {
+          "name": "Socola nóng",
+          "description": "Ngọt ngào, ấm áp, thơm vị socola",
+          "image": "https://images.pexels.com/photos/2067391/pexels-photo-2067391.jpeg",
+          "tags": ["BESTSELLER"]
+        },
+        {
+          "name": "Trà gừng mật ong",
+          "description": "Ấm bụng, tốt cho sức khỏe",
+          "image": "https://images.pexels.com/photos/5946639/pexels-photo-5946639.jpeg",
+          "tags": ["HEALTHY", "MÙA ĐÔNG"]
+        },
+        {
+          "name": "Trà quế táo đỏ",
+          "description": "Hương quế ấm nồng, táo đỏ ngọt tự nhiên",
+          "image": "https://images.pexels.com/photos/5946622/pexels-photo-5946622.jpeg",
+          "tags": ["NEW"]
+        },
+        {
+          "name": "Sữa nghệ",
+          "description": "Vàng tươi, bổ dưỡng, giúp ngủ ngon",
+          "image": "https://images.pexels.com/photos/5946633/pexels-photo-5946633.jpeg",
+          "tags": ["HEALTHY"]
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "Trà các loại",
+      "icon": "🍵",
+      "items": [
+        {
+          "name": "Trà sen",
+          "description": "Hương sen dịu nhẹ, thanh mát",
+          "image": "https://images.pexels.com/photos/230477/pexels-photo-230477.jpeg",
+          "tags": ["HOT", "NGON"]
+        },
+        {
+          "name": "Trà lài",
+          "description": "Thơm phức hương hoa lài, dễ chịu",
+          "image": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg",
+          "tags": ["BESTSELLER"]
+        },
+        {
+          "name": "Trà đào cam sả",
+          "description": "Vị chua ngọt cân bằng, rất dễ uống",
+          "image": "https://images.pexels.com/photos/350478/pexels-photo-350478.jpeg",
+          "tags": ["HOT", "SALE"]
+        },
+        {
+          "name": "Trà nhãn",
+          "description": "Thơm nhãn nhẹ, hợp ngày nắng",
+          "image": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg",
+          "tags": ["MÙA HÈ"]
+        },
+        {
+          "name": "Trà vải",
+          "description": "Ngọt thanh, thơm mát, màu hồng tự nhiên",
+          "image": "https://images.pexels.com/photos/2613488/pexels-photo-2613488.jpeg",
+          "tags": ["NEW", "NGON"]
+        }
+      ]
+    },
+    {
+      "id": "kem",
+      "name": "Kem",
+      "icon": "🍨",
+      "items": [
+        {
+          "name": "Kem dừa",
+          "description": "Béo ngậy, thơm dừa, lạnh tan chảy",
+          "image": "https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg",
+          "tags": ["BESTSELLER", "SIGNATURE"]
+        },
+        {
+          "name": "Kem dừa dồi dào",
+          "description": "Kem dừa nhân dừa sợi, topping hạt điều",
+          "image": "https://images.pexels.com/photos/1301062/pexels-photo-1301062.jpeg",
+          "tags": ["HOT", "SIGNATURE"]
+        },
+        {
+          "name": "Kem lá dứa",
+          "description": "Xanh mướt, thơm dịu mát",
+          "image": "https://images.pexels.com/photos/909282/pexels-photo-909282.jpeg",
+          "tags": ["NEW"]
+        },
+        {
+          "name": "Kem cà phê",
+          "description": "Đậm vị cafe, hơi đắng nhẹ cuối thìa",
+          "image": "https://images.pexels.com/photos/584764/pexels-photo-584764.jpeg",
+          "tags": ["HOT"]
+        },
+        {
+          "name": "Kem socola",
+          "description": "Ngọt đậm, mềm mịn, thơm ca cao",
+          "image": "https://images.pexels.com/photos/4110001/pexels-photo-4110001.jpeg",
+          "tags": ["NGON"]
+        },
+        {
+          "name": "Kem chuối",
+          "description": "Thơm bùi vị chuối, topping dừa non",
+          "image": "https://images.pexels.com/photos/47047/ice-cream-sweets-sugar-sweet-47047.jpeg",
+          "tags": ["BESTSELLER", "MÙA HÈ"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "faqs": [
+    {
+      "question": "Có chỗ đậu xe không?",
+      "answer": "Có bãi đỗ xe rộng rãi, miễn phí cho cả ô tô và xe máy."
+    },
+    {
+      "question": "Có thể mang thú cưng đến không?",
+      "answer": "Có. NHÀ TÔI là không gian pet-friendly, rất hoan nghênh các bạn nhỏ bốn chân."
+    },
+    {
+      "question": "Có thể tổ chức sinh nhật hoặc sự kiện nhỏ không?",
+      "answer": "Có thể. Bạn vui lòng liên hệ trước để NHÀ TÔI sắp xếp khu vực phù hợp."
+    },
+    {
+      "question": "Có bán cafe và kem dừa không?",
+      "answer": "Có nhé! NHÀ TÔI phục vụ cà phê pha phin, trà, nước ép và đặc biệt là kem dừa béo ngậy."
+    },
+    {
+      "question": "Giờ mở cửa như thế nào?",
+      "answer": "NHÀ TÔI mở cửa từ 06:00 đến 22:00 tất cả các ngày trong tuần."
+    }
+  ]
+}

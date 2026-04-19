@@ -1,65 +1,76 @@
-import Image from "next/image";
+import AboutSection from "./components/AboutSection";
+import Contact from "./components/Contact";
+import Corners from "./components/Corners";
+import Faq from "./components/Faq";
+import FloatingCallButton from "./components/FloatingCallButton";
+import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
+import Hero from "./components/Hero";
+import MenuSection from "./components/MenuSection";
+import Navbar from "./components/Navbar";
+import Testimonials from "./components/Testimonials";
+import { getLandingData } from "./lib/data";
 
-export default function Home() {
+export default async function Home() {
+  const data = await getLandingData();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <div className="overflow-x-hidden bg-[radial-gradient(circle_at_top,#eff7ee_0%,#e2f2ea_35%,#f7f6f0_100%)] text-[#1f3d34]">
+      <Navbar siteName={data.site.name} />
+
+      <Hero
+        name={data.site.name}
+        slogan={data.site.slogan}
+        images={data.hero.images}
+      />
+
+      <main>
+        <AboutSection
+          label={data.site.aboutLabel}
+          title={data.site.title}
+          intro={data.site.intro}
+          calmLine={data.site.calmLine}
+          features={data.site.features}
+          establishedYear={data.site.establishedYear}
+          hours={data.site.hours}
+          services={data.site.services}
+          notes={data.site.notes}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+        <Corners corners={data.corners.corners} />
+        <MenuSection
+          title={data.menu.title}
+          subtitle={data.menu.subtitle}
+          featured={data.menu.featured}
+          seasonal={data.menu.seasonal}
+          categories={data.menu.categories}
+        />
+        <Gallery
+          title={data.gallery.title}
+          description={data.gallery.description}
+          images={data.gallery.images}
+        />
+        {/* <Testimonials testimonials={data.testimonials.testimonials} /> */}
+        <Faq faqs={data.faq.faqs} />
+        <Contact
+          address={data.site.address}
+          phone={data.site.phone}
+          email={data.site.email}
+          hours={data.site.hours}
+          mapEmbedUrl={data.site.mapEmbedUrl}
+          social={data.social}
+        />
       </main>
+
+      <Footer
+        siteName={data.site.name}
+        slogan={data.site.slogan}
+        address={data.site.address}
+        phone={data.site.phone}
+        email={data.site.email}
+        mapEmbedUrl={data.site.mapEmbedUrl}
+        social={data.social}
+      />
+      <FloatingCallButton phone={data.site.phone} />
     </div>
   );
 }
